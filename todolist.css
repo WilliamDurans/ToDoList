@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+fieldset{
+    border-color: gray;
+    margin-left: 42em;
+    margin-right: 42em;
+    margin-top: 1%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(41, 40, 40);
+    text-align: center;
+    margin-top: 0.8em;
+}
+
+#subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(41, 40, 40);
+    text-align: center;
+}
+
+#data{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(41, 40, 40);
+    margin-left: 0;
+    border-radius: 5px;
+    border-color: gray;
+    box-shadow: gray;
+    text-align: center;
+}
+
+.campo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(41, 40, 40);
+    text-align: center;
+    border-width: 50%;
+}
+
+#observações{
+    text-align: center;
+}
+
+fieldset .campo textarea{
+    border-radius: 5px;
+    background-color: aliceblue;
+    border-color: gray;
+    width: 27.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.campo textarea{
+    border-radius: 5px;
+    background-color: aliceblue;
+    border-color: gray;
+    width: 27.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#cabeça{
+    border-color: gray;
+    margin-left: 47.2em;
+    margin-right: 47.2em;
+    margin-top: 5%;
+}
+
+.campo textarea:focus{
+    background-color: #e6ffff;
+}
+
+#data:focus{
+    background-color: #e6ffff;
+}
